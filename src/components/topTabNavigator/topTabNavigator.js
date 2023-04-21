@@ -18,8 +18,8 @@ function MyTabs (){
         screenOptions={{
           tabBarActiveTintColor: '#fff',
           tabBarIndicatorStyle: { backgroundColor: '#FECA21', width:40, padding:2,marginLeft:20},
-          tabBarLabelStyle: { fontSize: 16 },
-          tabBarStyle: { backgroundColor: '#1D1D1D', paddingTop:20 },
+          tabBarLabelStyle: { fontSize: 16, textAlign:'left' },
+          tabBarStyle: { backgroundColor: '#1D1D1D', paddingTop:20, },
         }}
       >
         <Tab.Screen
