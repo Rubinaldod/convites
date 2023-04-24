@@ -16,9 +16,15 @@ export const Convites =()=>{
 
 const styles = StyleSheet.create({
     container:
-        { backgroundColor: '#1D1D1D',flex:1},
+        { 
+            backgroundColor: '#1D1D1D',
+            flex:1,
+            width:'100%',
+    },
     title_container:{
         padding:20,
+        
+        
     },
     title:{
         color:'#fff',
